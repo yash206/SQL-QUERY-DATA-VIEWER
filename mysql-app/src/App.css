@@ -1,0 +1,134 @@
+/* General styles */
+.app-container {
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+/* Header styles */
+.app-header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  background-image: linear-gradient(to bottom right, #333, #555);
+}
+
+.app-header h1 {
+  margin: 0;
+}
+
+/* Content styles */
+.app-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.data-display {
+  margin-bottom: 250px; /* Adjust the value to set the desired gap size */
+}
+
+.query-selector select,
+.sql-query-input input[type="text"] {
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 1rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+.data-display table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.data-display th,
+.data-display td {
+  /* border: 1px solid #ccc; */
+  padding: 0.5rem;
+}
+
+.data-display th {
+  background-color: #f5f5f5;
+  font-weight: bold;
+}
+
+/* Footer styles */
+.app-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  background-image: linear-gradient(to top left, #333, #555);
+}
+
+.app-footer p {
+  margin: 0;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.data-display tr {
+  animation: fadeIn 0.5s ease;
+}
+
+/* Navigation styles */
+.app-nav {
+  position: sticky;
+  background-color: #555;
+  padding: 0.5rem 0;
+  z-index: 1;
+}
+
+.app-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.app-nav li {
+  margin-bottom: 10px;
+}
+
+.app-nav a {
+  display: block;
+  color: #fff;
+  text-decoration: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  transition: background-color 0.2s ease;
+}
+
+.app-nav a:hover {
+  background-color: #444;
+}
+
+/* Scroll to top button styles */
+.scroll-to-top-button {
+  display: block;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: #000000;
+  color: #fff;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.3s ease;
+}
+
+.scroll-to-top-button:hover {
+  opacity: 1;
+}
