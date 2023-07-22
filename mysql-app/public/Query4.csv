@@ -1,0 +1,490 @@
+CustomerID,FirstName,Gender,City,Frequency,Item,Spend
+6,Charles,Male,Stamford,Monthly,Sushi,93.03
+12,Rachel,Female,Philadelphia,Seldom,Sushi,71.68
+15,Henry,Male,Stamford,Often,Donut,83.61
+16,Paul,Male,Philadelphia,Often,Ice Cream,97.67
+19,Bruce,Male,Stamford,Often,Ice Cream,99.17
+20,Bonnie,Female,Philadelphia,Never,Donut,72.63
+26,Carol,Female,Philadelphia,Daily,Burger,90.66
+28,Stephanie,Female,New York,Weekly,Ice Cream,77.7
+29,Sarah,Female,New York,Often,Sushi,76.44
+31,Rose,Female,Philadelphia,Weekly,Sushi,59.27
+33,Ruby,Female,Stamford,Once,Burrito,67.36
+35,Stephen,Male,New York,Daily,Ice Cream,59.41
+36,Gregory,Male,New York,Weekly,Chalupa,81.43
+37,Kevin,Male,New York,Monthly,Sushi,60.6
+39,Christine,Female,Philadelphia,Monthly,Sushi,78.71
+43,Sharon,Female,Stamford,Often,Chalupa,73.16
+44,George,Male,Philadelphia,Often,Donut,93.12
+45,Nancy,Female,New York,Never,Ice Cream,91.69
+47,Betty,Female,Stamford,Monthly,Burger,63.84
+51,Anthony,Male,Stamford,Weekly,Sushi,96.97
+52,Cheryl,Female,Philadelphia,Daily,Burrito,91.58
+55,Elizabeth,Female,Stamford,Once,Burrito,56.01
+56,Ronald,Male,Stamford,Daily,Burrito,66.44
+57,Lawrence,Male,Philadelphia,Often,Burrito,54.77
+58,Nancy,Female,Stamford,Yearly,Burger,74.66
+60,Martin,Male,Stamford,Daily,Donut,54.38
+62,Todd,Male,New York,Yearly,Chalupa,60.54
+63,Michael,Male,Stamford,Never,Burrito,50.07
+64,Jeffrey,Male,Stamford,Once,Sushi,68.02
+65,Paula,Female,New York,Seldom,Donut,71.18
+66,Paul,Male,Philadelphia,Weekly,Ice Cream,82.57
+69,Andrea,Female,Philadelphia,Daily,Sushi,99.02
+70,Julie,Female,Philadelphia,Never,Burrito,96.79
+71,Fred,Male,Stamford,Once,Sushi,50.16
+72,Phillip,Male,Stamford,Never,Chalupa,69.59
+74,Tammy,Female,Stamford,Daily,Burger,75.51
+75,William,Male,Stamford,Daily,Burrito,81.2
+76,Joan,Female,New York,Weekly,Donut,61.25
+77,William,Male,Philadelphia,Daily,Sushi,68.14
+78,Karen,Female,New York,Never,Burrito,91.77
+85,Carolyn,Female,New York,Yearly,Ice Cream,70.45
+86,Carolyn,Female,Philadelphia,Seldom,Chalupa,92.59
+88,Julie,Female,Stamford,Often,Chalupa,93.96
+90,Elizabeth,Female,New York,Yearly,Burger,98.96
+94,Linda,Female,Stamford,Once,Ice Cream,65.72
+96,Gloria,Female,Philadelphia,Monthly,Burger,89.52
+98,Irene,Female,Philadelphia,Monthly,Chalupa,90.69
+99,William,Male,Philadelphia,Once,Ice Cream,54.34
+101,Paula,Female,New York,Yearly,Sushi,63.37
+102,Ruby,Female,Stamford,Daily,Burrito,80.49
+103,Sharon,Female,Philadelphia,Once,Ice Cream,77.6
+104,Stephanie,Female,Philadelphia,Yearly,Burrito,50.39
+105,Stephen,Male,Stamford,Yearly,Chalupa,96.9
+109,Douglas,Male,Philadelphia,Never,Ice Cream,84.09
+111,Theresa,Female,Philadelphia,Never,Sushi,75.12
+117,Amy,Female,Philadelphia,Daily,Burrito,50.39
+118,Wayne,Male,Philadelphia,Never,Sushi,70.54
+122,Rose,Female,Philadelphia,Often,Chalupa,58.41
+123,Judith,Female,Stamford,Daily,Sushi,86.94
+124,Sharon,Female,New York,Yearly,Sushi,74.85
+125,Bruce,Male,New York,Daily,Sushi,56.14
+126,Jose,Male,New York,Once,Ice Cream,55.47
+127,Sara,Female,New York,Weekly,Chalupa,57.81
+128,Alice,Female,Stamford,Seldom,Burrito,94.99
+131,Jane,Female,Stamford,Yearly,Sushi,54.15
+132,Samuel,Male,Stamford,Weekly,Burrito,54.13
+134,Christopher,Male,New York,Monthly,Donut,79.7
+136,Edward,Male,Philadelphia,Daily,Chalupa,58.04
+137,Aaron,Male,Philadelphia,Weekly,Ice Cream,89.85
+139,Joe,Male,Stamford,Yearly,Burger,76.6
+141,Sean,Male,Stamford,Seldom,Burger,89.99
+144,Sara,Female,Stamford,Seldom,Burrito,55.67
+146,Ralph,Male,Stamford,Monthly,Burrito,71.85
+147,Steven,Male,Philadelphia,Weekly,Burrito,78.95
+148,Jane,Female,Philadelphia,Yearly,Chalupa,82.27
+149,Walter,Male,New York,Seldom,Ice Cream,97.65
+152,Kevin,Male,Stamford,Once,Sushi,69.11
+153,Janice,Female,Stamford,Once,Donut,88.14
+154,Joshua,Male,Stamford,Monthly,Chalupa,93.25
+156,Judith,Female,Philadelphia,Often,Ice Cream,55.15
+161,Theresa,Female,Stamford,Weekly,Donut,91.75
+163,Wayne,Male,Stamford,Yearly,Burger,53.82
+167,Louise,Female,Philadelphia,Weekly,Ice Cream,64.11
+173,Philip,Male,Philadelphia,Monthly,Sushi,97.12
+174,Shawn,Male,Philadelphia,Yearly,Ice Cream,72.6
+175,Ruby,Female,New York,Daily,Donut,74.6
+177,Dorothy,Female,Stamford,Seldom,Ice Cream,78.62
+179,Deborah,Female,Stamford,Yearly,Chalupa,82.11
+185,Jane,Female,New York,Often,Sushi,95.07
+187,Teresa,Female,Stamford,Monthly,Chalupa,93.08
+188,Richard,Male,New York,Yearly,Burrito,64.63
+191,Kenneth,Male,Stamford,Seldom,Sushi,98.48
+192,Carl,Male,New York,Once,Donut,65.49
+193,Gary,Male,Philadelphia,Daily,Chalupa,85.87
+195,Annie,Female,New York,Often,Sushi,82.09
+197,Judith,Female,Stamford,Often,Ice Cream,97.44
+200,Brian,Male,New York,Monthly,Ice Cream,55.21
+204,Albert,Male,New York,Monthly,Sushi,93.85
+207,Aaron,Male,Philadelphia,Once,Chalupa,51.43
+209,Cynthia,Female,Philadelphia,Weekly,Donut,86.67
+210,Joshua,Male,New York,Often,Donut,86.7
+214,Mary,Female,Philadelphia,Often,Donut,68.03
+215,Roger,Male,Stamford,Yearly,Ice Cream,68.28
+222,Jessica,Female,Philadelphia,Never,Burger,66.53
+223,Paul,Male,Philadelphia,Monthly,Donut,77.5
+224,Annie,Female,New York,Daily,Ice Cream,87.85
+227,Melissa,Female,Philadelphia,Daily,Donut,70.27
+230,Terry,Male,Stamford,Monthly,Chalupa,73.07
+235,Jose,Male,Philadelphia,Daily,Ice Cream,66.66
+236,Diane,Female,New York,Yearly,Chalupa,98.43
+239,Carol,Female,Stamford,Often,Chalupa,63.19
+243,Sarah,Female,Philadelphia,Yearly,Chalupa,52.13
+244,Julia,Female,New York,Daily,Donut,95.63
+246,Daniel,Male,Stamford,Weekly,Ice Cream,61.76
+249,Willie,Male,Stamford,Weekly,Sushi,67.67
+250,Kathleen,Female,New York,Seldom,Ice Cream,74.27
+251,Joseph,Male,Philadelphia,Monthly,Burger,96.25
+252,Benjamin,Male,Stamford,Daily,Chalupa,69.99
+253,Aaron,Male,Stamford,Never,Burrito,95.07
+259,Ashley,Female,Philadelphia,Yearly,Ice Cream,63.62
+260,Victor,Male,Stamford,Never,Sushi,88.56
+262,Joan,Female,Philadelphia,Often,Burger,84.16
+263,Roger,Male,New York,Once,Burger,50.61
+264,Bonnie,Female,Philadelphia,Seldom,Chalupa,96.11
+265,Jean,Female,New York,Often,Ice Cream,55.03
+268,Jean,Female,Philadelphia,Monthly,Chalupa,65.53
+269,Louis,Male,Stamford,Yearly,Burrito,74.79
+271,Martha,Female,Philadelphia,Once,Donut,83.62
+272,Johnny,Male,Philadelphia,Daily,Chalupa,92.25
+273,Martin,Male,Philadelphia,Weekly,Sushi,72.87
+275,Shirley,Female,New York,Monthly,Donut,52.47
+276,Billy,Male,Stamford,Yearly,Burger,78.79
+277,Joan,Female,Philadelphia,Daily,Sushi,66.1
+278,Todd,Male,Stamford,Monthly,Donut,57.29
+279,Patricia,Female,New York,Weekly,Donut,73.75
+282,Andrea,Female,Philadelphia,Yearly,Chalupa,85.36
+283,Phillip,Male,Philadelphia,Weekly,Burrito,55.48
+284,Juan,Male,Philadelphia,Once,Burrito,55.17
+285,Juan,Male,Philadelphia,Never,Burrito,89.28
+288,Jessica,Female,Stamford,Daily,Sushi,73.69
+289,Ernest,Male,Philadelphia,Never,Chalupa,52.48
+291,Marie,Female,Stamford,Yearly,Burrito,54.06
+293,Ruby,Female,New York,Monthly,Donut,70.03
+294,Shirley,Female,Philadelphia,Often,Burrito,64.79
+299,Arthur,Male,Stamford,Weekly,Ice Cream,62.63
+300,Russell,Male,New York,Monthly,Sushi,57.7
+302,Anne,Female,New York,Seldom,Ice Cream,95.58
+304,Diane,Female,Stamford,Often,Ice Cream,72.78
+305,Brian,Male,Philadelphia,Seldom,Donut,63.14
+306,Lisa,Female,Philadelphia,Seldom,Ice Cream,66.25
+312,Margaret,Female,Stamford,Often,Burrito,57.56
+313,Kimberly,Female,Stamford,Once,Burger,72.69
+314,Carol,Female,Philadelphia,Once,Chalupa,56.19
+315,Theresa,Female,Stamford,Often,Burrito,97.48
+316,Steve,Male,Stamford,Never,Burrito,91.27
+318,Craig,Male,Stamford,Often,Ice Cream,60.89
+320,Shawn,Male,Stamford,Seldom,Chalupa,51.63
+322,Peter,Male,New York,Once,Burger,77.03
+325,Sean,Male,New York,Weekly,Sushi,63.8
+326,Keith,Male,Philadelphia,Daily,Donut,91.19
+331,Shirley,Female,Philadelphia,Seldom,Burrito,83.33
+334,Catherine,Female,Stamford,Often,Burrito,71.03
+338,Ryan,Male,Philadelphia,Never,Burrito,59.67
+339,Lori,Female,New York,Never,Ice Cream,95.6
+340,Robin,Female,Stamford,Never,Burger,57.3
+344,Marie,Female,Philadelphia,Seldom,Burger,83.76
+348,Tina,Female,Stamford,Monthly,Sushi,52.61
+349,Philip,Male,Philadelphia,Never,Ice Cream,62.14
+351,Ruth,Female,New York,Yearly,Donut,62.95
+352,Kelly,Female,New York,Daily,Ice Cream,54.01
+353,Justin,Male,Stamford,Weekly,Burger,97.2
+354,Jose,Male,Stamford,Often,Donut,68.4
+355,Julia,Female,Philadelphia,Often,Chalupa,81.06
+356,Debra,Female,Philadelphia,Yearly,Chalupa,62.66
+364,Arthur,Male,New York,Once,Burger,70.08
+369,Catherine,Female,Philadelphia,Once,Ice Cream,80.25
+372,Jimmy,Male,New York,Once,Burrito,59.11
+374,Frank,Male,New York,Seldom,Burrito,73.88
+375,Annie,Female,Philadelphia,Weekly,Sushi,74.56
+377,Julie,Female,New York,Often,Burger,82
+379,Anna,Female,Philadelphia,Never,Burrito,65.36
+383,Michelle,Female,New York,Once,Chalupa,62.4
+386,Alice,Female,Stamford,Yearly,Sushi,83.28
+387,Harry,Male,Stamford,Weekly,Burger,79.48
+390,Eugene,Male,Philadelphia,Monthly,Ice Cream,72.67
+392,Ronald,Male,New York,Often,Ice Cream,88.15
+395,Diane,Female,New York,Monthly,Donut,82.05
+396,Sean,Male,Philadelphia,Seldom,Chalupa,98.4
+397,George,Male,New York,Weekly,Donut,58.96
+399,Peter,Male,Stamford,Often,Ice Cream,58.25
+400,Lori,Female,New York,Monthly,Chalupa,87.86
+403,Terry,Male,New York,Often,Burrito,73.64
+406,Debra,Female,Philadelphia,Never,Ice Cream,65.26
+408,Richard,Male,Philadelphia,Often,Burger,73.84
+409,Fred,Male,New York,Daily,Ice Cream,69.17
+410,Louise,Female,Philadelphia,Yearly,Sushi,61.22
+412,Richard,Male,New York,Daily,Burger,68.83
+413,Sean,Male,New York,Weekly,Burrito,91.48
+414,Bobby,Male,Philadelphia,Weekly,Burrito,65.68
+415,Jennifer,Female,Stamford,Yearly,Burger,85.06
+423,Phyllis,Female,Stamford,Monthly,Burrito,67.94
+425,Jerry,Male,New York,Once,Sushi,86.86
+426,Gloria,Female,Philadelphia,Once,Chalupa,99.29
+427,Katherine,Female,Philadelphia,Seldom,Burger,97.79
+428,Christopher,Male,Philadelphia,Once,Sushi,51.33
+431,Bruce,Male,New York,Monthly,Sushi,93.82
+432,Daniel,Male,Stamford,Daily,Donut,75.04
+433,Ronald,Male,Philadelphia,Once,Ice Cream,86.66
+437,Sara,Female,Philadelphia,Daily,Burrito,52.58
+438,Tammy,Female,Stamford,Weekly,Burger,57.29
+439,Judith,Female,Philadelphia,Once,Burrito,52.38
+441,Alice,Female,New York,Weekly,Burger,91.1
+442,Cheryl,Female,Philadelphia,Often,Donut,62.89
+445,Jeremy,Male,Philadelphia,Daily,Sushi,61.7
+451,Christine,Female,Stamford,Never,Burrito,82.37
+458,Justin,Male,Philadelphia,Often,Donut,76.91
+462,Ruth,Female,Stamford,Often,Donut,58.51
+466,John,Male,Philadelphia,Weekly,Sushi,53.97
+469,Chris,Male,Philadelphia,Never,Sushi,63.22
+470,Samuel,Male,Stamford,Often,Chalupa,67.92
+471,Jesse,Male,Philadelphia,Once,Donut,89.62
+472,Jean,Female,New York,Weekly,Chalupa,73.77
+476,Lois,Female,Stamford,Seldom,Donut,73.84
+478,Douglas,Male,New York,Seldom,Sushi,53.45
+479,Steve,Male,Stamford,Never,Donut,94.14
+483,Janice,Female,Stamford,Weekly,Chalupa,98.69
+484,Teresa,Female,Stamford,Seldom,Chalupa,81.63
+486,Craig,Male,New York,Once,Donut,66.17
+487,Samuel,Male,New York,Once,Burger,52.19
+490,Johnny,Male,Stamford,Daily,Burger,69.33
+491,Lois,Female,Philadelphia,Never,Donut,66.09
+493,Jack,Male,Philadelphia,Often,Ice Cream,81.38
+497,Linda,Female,Stamford,Monthly,Chalupa,68.9
+501,Beverly,Female,Stamford,Once,Ice Cream,79.12
+502,Louise,Female,Stamford,Monthly,Donut,75.39
+503,Alice,Female,New York,Yearly,Burger,94.23
+506,Susan,Female,Stamford,Yearly,Chalupa,79.99
+507,Diane,Female,Philadelphia,Daily,Donut,59.69
+512,Heather,Female,Stamford,Yearly,Sushi,81.48
+515,Katherine,Female,Philadelphia,Yearly,Burger,58.55
+517,Karen,Female,Philadelphia,Never,Burrito,78.05
+526,Charles,Male,New York,Yearly,Chalupa,77.3
+527,Sharon,Female,Philadelphia,Yearly,Donut,68.97
+528,Alan,Male,Stamford,Often,Ice Cream,68.9
+529,Roger,Male,Philadelphia,Weekly,Sushi,95.7
+531,Marie,Female,Philadelphia,Seldom,Ice Cream,79.52
+533,Karen,Female,Philadelphia,Daily,Sushi,50.73
+534,Joshua,Male,New York,Often,Ice Cream,86.01
+536,Steven,Male,Philadelphia,Seldom,Ice Cream,88.51
+538,Steve,Male,Stamford,Weekly,Sushi,86.43
+539,Nicholas,Male,Stamford,Seldom,Sushi,93.52
+541,Martin,Male,Philadelphia,Yearly,Burger,98.83
+542,Tammy,Female,Philadelphia,Once,Sushi,57.69
+543,Jason,Male,Stamford,Weekly,Donut,80.88
+544,Doris,Female,Stamford,Weekly,Burrito,81.18
+545,Shirley,Female,Stamford,Never,Burrito,65.09
+547,Brian,Male,New York,Weekly,Ice Cream,79.95
+550,Frank,Male,Stamford,Seldom,Burger,66.93
+552,Patricia,Female,Stamford,Once,Ice Cream,78.66
+553,Ashley,Female,Stamford,Yearly,Chalupa,53.23
+554,Edward,Male,New York,Never,Sushi,51.5
+555,Charles,Male,Stamford,Once,Burger,88.05
+556,Diana,Female,Philadelphia,Once,Sushi,86.45
+557,Alan,Male,New York,Weekly,Burger,69.69
+558,Jimmy,Male,New York,Monthly,Burrito,73.58
+559,Anthony,Male,Philadelphia,Daily,Sushi,58.94
+560,Rebecca,Female,Philadelphia,Often,Burrito,85.08
+561,Laura,Female,Stamford,Yearly,Donut,55.62
+562,Jack,Male,New York,Weekly,Chalupa,67.02
+563,Carlos,Male,Stamford,Weekly,Burger,76.19
+564,Amanda,Female,Stamford,Weekly,Chalupa,80.97
+565,Christine,Female,Philadelphia,Daily,Sushi,82.95
+567,Ashley,Female,New York,Monthly,Chalupa,70.51
+568,Catherine,Female,New York,Monthly,Burger,97.77
+569,Doris,Female,Philadelphia,Yearly,Chalupa,53.45
+572,Richard,Male,New York,Monthly,Burger,80.64
+573,Marie,Female,Stamford,Yearly,Donut,50.64
+575,Nicholas,Male,New York,Never,Donut,78.71
+576,Christina,Female,Philadelphia,Never,Burger,84.04
+582,Deborah,Female,Philadelphia,Yearly,Chalupa,53.4
+583,Louise,Female,Stamford,Often,Burrito,99.21
+585,Kathryn,Female,Stamford,Weekly,Sushi,67.08
+586,Cheryl,Female,Stamford,Monthly,Burger,84.7
+587,Joe,Male,Philadelphia,Weekly,Donut,77.15
+590,Denise,Female,Stamford,Never,Donut,59.04
+591,Kathy,Female,Philadelphia,Never,Donut,79.15
+594,Andrea,Female,Stamford,Never,Donut,50.6
+597,Louise,Female,Philadelphia,Never,Chalupa,53.31
+599,Jeffrey,Male,Stamford,Weekly,Donut,95.44
+600,Gary,Male,Philadelphia,Yearly,Burrito,54.75
+602,Norma,Female,Philadelphia,Seldom,Burrito,63.12
+604,Catherine,Female,Philadelphia,Seldom,Chalupa,50.68
+607,Jason,Male,New York,Monthly,Burger,72.54
+608,Robin,Female,Stamford,Never,Chalupa,98.78
+609,Jimmy,Male,Philadelphia,Never,Burrito,93.27
+611,Sharon,Female,New York,Weekly,Sushi,51.59
+614,Mark,Male,Stamford,Seldom,Donut,79.58
+615,Roger,Male,Philadelphia,Once,Chalupa,80.59
+616,Amanda,Female,Stamford,Weekly,Donut,88.18
+618,Bonnie,Female,Philadelphia,Never,Ice Cream,71.49
+620,Andrea,Female,Philadelphia,Never,Donut,96.52
+621,Raymond,Male,Philadelphia,Often,Ice Cream,72.18
+622,Diane,Female,Stamford,Once,Donut,70.1
+624,Lillian,Female,New York,Weekly,Sushi,99.51
+626,Phyllis,Female,New York,Weekly,Burger,93.25
+627,Donna,Female,Philadelphia,Seldom,Burger,63
+629,Juan,Male,Philadelphia,Monthly,Sushi,58.47
+631,Tina,Female,New York,Daily,Burger,87.3
+632,Norma,Female,New York,Often,Burrito,62.7
+633,Diana,Female,Philadelphia,Yearly,Chalupa,58.34
+637,Paula,Female,Stamford,Often,Chalupa,66.13
+638,Fred,Male,New York,Often,Chalupa,96.44
+639,Clarence,Male,Stamford,Once,Sushi,81.94
+640,Justin,Male,New York,Seldom,Burrito,84.74
+641,Martin,Male,Stamford,Often,Donut,99.26
+644,Maria,Female,Philadelphia,Never,Sushi,52.7
+646,Judith,Female,New York,Monthly,Ice Cream,51.51
+649,Judy,Female,New York,Weekly,Sushi,76.76
+650,Evelyn,Female,Philadelphia,Once,Sushi,88.77
+651,Sandra,Female,Philadelphia,Seldom,Sushi,63.42
+652,Robin,Female,Stamford,Daily,Sushi,56.56
+654,Justin,Male,Stamford,Never,Donut,85.6
+656,Pamela,Female,New York,Yearly,Burrito,70.24
+658,Sandra,Female,New York,Never,Donut,56.07
+659,Sean,Male,Philadelphia,Yearly,Ice Cream,96.34
+660,Elizabeth,Female,Stamford,Daily,Donut,77.71
+661,Lois,Female,Philadelphia,Weekly,Burrito,61.56
+662,Margaret,Female,New York,Once,Burrito,59.94
+666,Eric,Male,New York,Daily,Burger,62.22
+667,Phyllis,Female,New York,Seldom,Ice Cream,72.5
+668,James,Male,New York,Seldom,Burger,80.37
+670,Scott,Male,Philadelphia,Once,Burrito,61.75
+671,Jonathan,Male,New York,Seldom,Burger,61.47
+674,Victor,Male,New York,Seldom,Burger,83.84
+677,Kelly,Female,New York,Monthly,Burrito,73.89
+679,Jeremy,Male,Stamford,Weekly,Sushi,87.09
+683,Sean,Male,New York,Monthly,Sushi,74.45
+684,Tina,Female,Stamford,Yearly,Burrito,76.32
+687,Jennifer,Female,Philadelphia,Yearly,Donut,85.51
+690,Robin,Female,New York,Daily,Burrito,83.29
+693,Benjamin,Male,New York,Seldom,Sushi,72.03
+695,Gerald,Male,Stamford,Weekly,Burger,57.34
+696,Emily,Female,New York,Never,Burrito,68.28
+697,Michelle,Female,Philadelphia,Once,Burger,52.53
+698,Catherine,Female,New York,Weekly,Ice Cream,54.52
+700,Joyce,Female,Philadelphia,Never,Burger,66.27
+701,Katherine,Female,Philadelphia,Monthly,Chalupa,55.09
+703,Cheryl,Female,New York,Seldom,Sushi,87.7
+708,Willie,Male,New York,Often,Ice Cream,95.45
+710,Kenneth,Male,New York,Yearly,Donut,82.76
+712,Johnny,Male,Stamford,Never,Burrito,87.34
+715,Jessica,Female,Philadelphia,Weekly,Ice Cream,88.14
+717,Arthur,Male,New York,Often,Burrito,53.77
+728,Ronald,Male,New York,Weekly,Burrito,58.04
+729,Peter,Male,New York,Never,Chalupa,53.69
+730,Wanda,Female,Philadelphia,Once,Burger,66.01
+731,Mildred,Female,Philadelphia,Daily,Ice Cream,77.24
+732,Denise,Female,Philadelphia,Seldom,Donut,53.05
+733,Patricia,Female,New York,Seldom,Burrito,75.29
+734,Lisa,Female,Philadelphia,Yearly,Burger,64.62
+740,Jose,Male,Philadelphia,Often,Sushi,66.93
+741,Mark,Male,Philadelphia,Seldom,Sushi,91.26
+745,Carl,Male,New York,Weekly,Ice Cream,86.08
+746,Louis,Male,Philadelphia,Weekly,Chalupa,79.97
+748,Kelly,Female,Philadelphia,Monthly,Chalupa,78.65
+749,Joan,Female,Stamford,Weekly,Sushi,59.84
+750,Rose,Female,New York,Weekly,Donut,85.93
+751,Theresa,Female,Stamford,Seldom,Burger,74.88
+752,Jose,Male,New York,Daily,Burrito,98.04
+754,Lois,Female,New York,Daily,Sushi,74.72
+755,Melissa,Female,Philadelphia,Seldom,Sushi,85.37
+758,Lori,Female,Stamford,Yearly,Donut,69.4
+760,Tammy,Female,New York,Never,Sushi,69.33
+762,Paula,Female,Stamford,Daily,Chalupa,95.7
+763,Lawrence,Male,Philadelphia,Monthly,Burger,69.43
+767,James,Male,Philadelphia,Daily,Burger,65.89
+770,Maria,Female,Philadelphia,Seldom,Burger,59.18
+771,Johnny,Male,Stamford,Often,Donut,70.28
+774,Douglas,Male,New York,Once,Donut,55.7
+775,Sara,Female,New York,Seldom,Burrito,92.25
+776,Alice,Female,Philadelphia,Yearly,Sushi,50.08
+780,Michael,Male,Philadelphia,Yearly,Burrito,63.76
+784,Stephanie,Female,Stamford,Daily,Ice Cream,78.24
+785,Willie,Male,Philadelphia,Monthly,Ice Cream,67.89
+787,Denise,Female,New York,Weekly,Ice Cream,63.28
+788,Sandra,Female,New York,Seldom,Chalupa,92.98
+789,Brandon,Male,New York,Daily,Burger,74.68
+790,Benjamin,Male,New York,Daily,Donut,84.85
+796,Joe,Male,Philadelphia,Monthly,Ice Cream,99.24
+798,Ernest,Male,New York,Yearly,Ice Cream,96.74
+799,Amanda,Female,New York,Once,Donut,54.34
+804,Jeffrey,Male,Philadelphia,Monthly,Donut,70.09
+805,Rebecca,Female,New York,Weekly,Sushi,67.63
+806,Susan,Female,New York,Daily,Ice Cream,97.83
+812,Billy,Male,Stamford,Often,Chalupa,72.66
+813,Mary,Female,New York,Daily,Burrito,67.56
+814,Laura,Female,New York,Monthly,Donut,79.98
+816,Christopher,Male,New York,Daily,Burrito,89.34
+817,Anthony,Male,New York,Monthly,Ice Cream,59.69
+818,Catherine,Female,Philadelphia,Often,Burger,77.93
+819,Craig,Male,Philadelphia,Daily,Donut,58.01
+821,Sandra,Female,New York,Often,Ice Cream,91.5
+822,Wayne,Male,New York,Daily,Burger,84.74
+827,Sandra,Female,Stamford,Monthly,Donut,82.25
+828,Walter,Male,New York,Monthly,Chalupa,95.49
+832,James,Male,Philadelphia,Never,Chalupa,61.6
+836,Brian,Male,Stamford,Weekly,Donut,54.18
+841,Kelly,Female,Stamford,Weekly,Sushi,91.33
+842,William,Male,Philadelphia,Never,Chalupa,86.82
+843,Dorothy,Female,Philadelphia,Weekly,Sushi,84.27
+844,Lori,Female,Philadelphia,Daily,Ice Cream,79.18
+846,Lillian,Female,Philadelphia,Seldom,Sushi,82.09
+848,Eugene,Male,Stamford,Once,Ice Cream,84.98
+849,Jean,Female,Philadelphia,Never,Donut,94.91
+850,Earl,Male,New York,Yearly,Burrito,55.09
+851,Jennifer,Female,New York,Once,Sushi,81.4
+852,Randy,Male,Stamford,Weekly,Ice Cream,67.85
+853,Douglas,Male,Stamford,Never,Sushi,62.3
+854,Helen,Female,Stamford,Weekly,Donut,67.68
+855,Rebecca,Female,New York,Yearly,Chalupa,57.43
+858,Justin,Male,Philadelphia,Seldom,Burger,99.68
+859,Stephanie,Female,Philadelphia,Often,Sushi,85.87
+862,Martha,Female,Stamford,Once,Sushi,95.43
+863,Amanda,Female,Philadelphia,Daily,Burger,91.12
+865,Paul,Male,Philadelphia,Monthly,Chalupa,73.05
+866,Steven,Male,New York,Daily,Donut,64.09
+867,Ann,Female,Philadelphia,Once,Ice Cream,83.3
+869,Diane,Female,Stamford,Often,Chalupa,50.14
+872,Wayne,Male,New York,Yearly,Burrito,65.45
+873,Christine,Female,Stamford,Monthly,Ice Cream,59.76
+876,Larry,Male,New York,Once,Donut,60.08
+877,Harry,Male,New York,Monthly,Chalupa,70.54
+883,Doris,Female,Philadelphia,Often,Burrito,95.04
+886,Jacqueline,Female,Stamford,Often,Donut,69.1
+887,Donald,Male,Philadelphia,Once,Sushi,85.98
+888,Pamela,Female,Stamford,Seldom,Burrito,83.83
+890,Mildred,Female,Philadelphia,Monthly,Burger,83.15
+891,Jeffrey,Male,Philadelphia,Never,Burrito,68.99
+895,Harold,Male,New York,Weekly,Sushi,83.07
+896,Paula,Female,Stamford,Weekly,Donut,77.52
+897,Craig,Male,Philadelphia,Weekly,Burger,75.59
+898,Catherine,Female,Philadelphia,Never,Burrito,92.2
+900,Gloria,Female,New York,Daily,Donut,62.69
+901,James,Male,Philadelphia,Monthly,Donut,50.72
+902,Teresa,Female,New York,Once,Burger,61.08
+904,Lois,Female,New York,Weekly,Donut,64.63
+905,Paul,Male,Stamford,Never,Sushi,54.04
+908,Joe,Male,Philadelphia,Monthly,Ice Cream,85.12
+909,Benjamin,Male,New York,Seldom,Ice Cream,86.67
+910,Jose,Male,Stamford,Monthly,Chalupa,88.75
+912,Elizabeth,Female,New York,Often,Donut,69.32
+915,Ruby,Female,Stamford,Daily,Sushi,65.52
+917,Steve,Male,New York,Daily,Sushi,83.07
+918,Kimberly,Female,Philadelphia,Daily,Donut,92.25
+919,Russell,Male,Stamford,Daily,Burger,59.1
+921,Janice,Female,Philadelphia,Seldom,Donut,81.56
+923,Mark,Male,Philadelphia,Never,Ice Cream,80.02
+925,Patricia,Female,Stamford,Monthly,Sushi,55.78
+926,Ernest,Male,New York,Monthly,Chalupa,93.44
+929,Sean,Male,Stamford,Weekly,Burrito,72.27
+930,Jack,Male,Stamford,Monthly,Ice Cream,74.36
+938,Steven,Male,Stamford,Daily,Chalupa,99.87
+943,Carol,Female,Philadelphia,Monthly,Donut,50.25
+945,Sean,Male,Philadelphia,Often,Sushi,64.6
+946,Harry,Male,New York,Never,Sushi,70.37
+950,Karen,Female,Stamford,Monthly,Burger,53.14
+953,Denise,Female,Stamford,Never,Ice Cream,77.66
+955,Dennis,Male,Stamford,Often,Burger,85.25
+957,Frances,Female,Philadelphia,Weekly,Donut,95.32
+960,Joseph,Male,New York,Often,Chalupa,70.07
+964,Earl,Male,New York,Once,Ice Cream,97.41
+966,William,Male,Stamford,Often,Burrito,88.14
+967,Carl,Male,Philadelphia,Daily,Burrito,67.2
+972,Kenneth,Male,Stamford,Often,Burger,56.41
+977,Jesse,Male,Philadelphia,Never,Ice Cream,95.69
+978,John,Male,New York,Yearly,Sushi,70.78
+979,Charles,Male,Stamford,Weekly,Donut,64.28
+981,Daniel,Male,New York,Often,Chalupa,58.95
+982,Keith,Male,New York,Daily,Donut,65.19
+986,Ernest,Male,New York,Weekly,Burrito,70.17
+987,Ann,Female,Stamford,Yearly,Chalupa,92.16
+988,Jesse,Male,Stamford,Once,Burger,65.7
+989,Louise,Female,Stamford,Yearly,Burger,69.8
+990,Timothy,Male,Stamford,Daily,Burrito,80.38
+991,Pamela,Female,New York,Never,Burger,97.89
+993,Raymond,Male,New York,Never,Burger,90.32
+995,Shirley,Female,Stamford,Never,Burrito,98.61
+996,Donna,Female,New York,Monthly,Sushi,83.53
+997,Albert,Male,Philadelphia,Daily,Sushi,72.88

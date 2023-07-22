@@ -10,9 +10,10 @@ const App = () => {
   useEffect(() => {
     // Define the CSV files for each predefined query
     const predefinedCsvFiles = {
-      'Select customerID, companyName, contactName, contactTitle, country from customers;': './Query1.csv',
-      'Select customerID, companyName, contactName, contactTitle, country from customers where country = "Germany";': './Query2.csv',
-      'Select customerID, companyName, contactName, contactTitle, country from customers where contactTitle = "Owner";': './Query3.csv',
+      'SELECT * FROM Foods;': './Query1.csv',
+      'SELECT * FROM Foods WHERE Frequency = "Weekly";': './Query2.csv',
+      'SELECT * FROM Foods ORDER BY Spend DESC;': './Query3.csv',
+      'SELECT * FROM Foods WHERE Spend>50;': './Query4.csv',
     };
 
     // Fetch and parse the CSV data for each predefined query
@@ -46,15 +47,15 @@ const App = () => {
 
 
   const predefinedQueries = [
-    'Select customerID, companyName, contactName, contactTitle, country from customers;',
-    'Select customerID, companyName, contactName, contactTitle, country from customers where country = "Germany";',
-    'Select customerID, companyName, contactName, contactTitle, country from customers where contactTitle = "Owner";',
+    'SELECT * FROM Foods;',
+    'SELECT * FROM Foods WHERE Frequency = "Weekly";',
+    'SELECT * FROM Foods ORDER BY Spend DESC;',
+    'SELECT * FROM Foods WHERE Spend>50;',
   ];
 
   const handleQuerySelect = (query) => {
     setSelectedQuery(query);
 
-    // Get the query text from the predefinedQueries array using the index of the selected query
     const selectedQueryIndex = predefinedQueries.indexOf(query);
     if (selectedQueryIndex !== -1) {
       setSelectedQueryText(predefinedQueries[selectedQueryIndex]);
@@ -62,16 +63,14 @@ const App = () => {
   };
 
   const displayData = () => {
-    // Display data based on the selected option (predefined query)
     if (selectedQuery !== '') {
-      // Check if the data exists in the csvFileMap for the selected query
       if (csvFileMap[selectedQuery]) {
         return csvFileMap[selectedQuery];
       } else {
-        return []; // Return an empty array if data for the selected query is not available
+        return [];
       }
     } else {
-      return []; // Show all data by default
+      return []; 
     }
   };
   
@@ -140,21 +139,25 @@ const App = () => {
           <table>
             <thead>
               <tr>
-              <th>customerID</th>
-              <th>companyName</th>
-              <th>contactName</th>
-              <th>contactTitle</th>
-              <th>country</th>
+              <th>CustomerID</th>
+              <th>FirstName</th>
+              <th>Gender</th>
+              <th>City</th>
+              <th>Frequency</th>
+              <th>Item</th>
+              <th>Spend</th>
               </tr>
             </thead>
             <tbody>
               {displayData().map((item, index) => (
                 <tr key={index}>
-                  <td>{item.customerID}</td>
-                  <td>{item.companyName}</td>
-                  <td>{item.contactName}</td>
-                  <td>{item.contactTitle}</td>
-                  <td>{item.country}</td>
+                  <td>{item.CustomerID}</td>
+                  <td>{item.FirstName}</td>
+                  <td>{item.Gender}</td>
+                  <td>{item.City}</td>
+                  <td>{item.Frequency}</td>
+                  <td>{item.Item}</td>
+                  <td>{item.Spend}</td>
                 </tr>
               ))}
             </tbody>
