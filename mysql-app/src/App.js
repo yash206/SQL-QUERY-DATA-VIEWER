@@ -54,6 +54,7 @@ const App = () => {
     'SELECT * FROM Foods ORDER BY Spend DESC;',
     'SELECT * FROM Foods WHERE Spend>50;',
     'SELECT * FROM Foods WHERE Gender = "Female" AND Frequency = "Daily";',
+    'SELECT * FROM Foods WHERE Gender = "Male" AND (Item = "Sushi" OR Item = "Ice Cream" OR Item = "Donut");',
   ];
 
   const handleQuerySelect = (query) => {
