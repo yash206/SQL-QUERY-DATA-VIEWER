@@ -1,0 +1,75 @@
+CustomerID,FirstName,Gender,City,Frequency,Item,Spend
+5,Deborah,Female,Philadelphia,Daily,Chalupa,23.49
+14,Lori,Female,New York,Daily,Burrito,34.92
+26,Carol,Female,Philadelphia,Daily,Burger,90.66
+32,Sharon,Female,New York,Daily,Donut,25.04
+40,Alice,Female,New York,Daily,Burger,49.32
+52,Cheryl,Female,Philadelphia,Daily,Burrito,91.58
+61,Linda,Female,New York,Daily,Burrito,10.83
+67,Robin,Female,Philadelphia,Daily,Burrito,45.53
+69,Andrea,Female,Philadelphia,Daily,Sushi,99.02
+74,Tammy,Female,Stamford,Daily,Burger,75.51
+92,Ruth,Female,Stamford,Daily,Sushi,48.21
+102,Ruby,Female,Stamford,Daily,Burrito,80.49
+117,Amy,Female,Philadelphia,Daily,Burrito,50.39
+123,Judith,Female,Stamford,Daily,Sushi,86.94
+151,Linda,Female,Stamford,Daily,Burger,30.55
+169,Donna,Female,Stamford,Daily,Sushi,37.18
+170,Cynthia,Female,Philadelphia,Daily,Burrito,37.67
+175,Ruby,Female,New York,Daily,Donut,74.6
+212,Diane,Female,New York,Daily,Sushi,6.35
+216,Amy,Female,Philadelphia,Daily,Donut,25.19
+220,Tammy,Female,Philadelphia,Daily,Sushi,32.23
+224,Annie,Female,New York,Daily,Ice Cream,87.85
+226,Tammy,Female,Stamford,Daily,Ice Cream,14.64
+227,Melissa,Female,Philadelphia,Daily,Donut,70.27
+244,Julia,Female,New York,Daily,Donut,95.63
+258,Carolyn,Female,New York,Daily,Donut,9.16
+261,Diane,Female,New York,Daily,Burger,34.51
+277,Joan,Female,Philadelphia,Daily,Sushi,66.1
+288,Jessica,Female,Stamford,Daily,Sushi,73.69
+323,Elizabeth,Female,New York,Daily,Burger,49.75
+336,Phyllis,Female,New York,Daily,Donut,42.13
+352,Kelly,Female,New York,Daily,Ice Cream,54.01
+363,Norma,Female,New York,Daily,Donut,19.09
+366,Teresa,Female,New York,Daily,Donut,17.26
+402,Kelly,Female,Stamford,Daily,Sushi,25.17
+437,Sara,Female,Philadelphia,Daily,Burrito,52.58
+447,Debra,Female,Stamford,Daily,Burrito,39.2
+507,Diane,Female,Philadelphia,Daily,Donut,59.69
+516,Ruby,Female,Stamford,Daily,Burrito,26.86
+524,Sara,Female,Philadelphia,Daily,Burrito,43.82
+530,Diane,Female,New York,Daily,Donut,36.57
+533,Karen,Female,Philadelphia,Daily,Sushi,50.73
+565,Christine,Female,Philadelphia,Daily,Sushi,82.95
+598,Denise,Female,Philadelphia,Daily,Ice Cream,21.27
+631,Tina,Female,New York,Daily,Burger,87.3
+652,Robin,Female,Stamford,Daily,Sushi,56.56
+660,Elizabeth,Female,Stamford,Daily,Donut,77.71
+669,Judy,Female,New York,Daily,Ice Cream,22.5
+672,Denise,Female,Stamford,Daily,Burrito,47.9
+675,Mary,Female,New York,Daily,Donut,35.42
+678,Ruby,Female,New York,Daily,Burger,30.92
+690,Robin,Female,New York,Daily,Burrito,83.29
+731,Mildred,Female,Philadelphia,Daily,Ice Cream,77.24
+739,Nicole,Female,Stamford,Daily,Burger,38.6
+753,Pamela,Female,New York,Daily,Burger,10.87
+754,Lois,Female,New York,Daily,Sushi,74.72
+762,Paula,Female,Stamford,Daily,Chalupa,95.7
+784,Stephanie,Female,Stamford,Daily,Ice Cream,78.24
+806,Susan,Female,New York,Daily,Ice Cream,97.83
+813,Mary,Female,New York,Daily,Burrito,67.56
+815,Robin,Female,Stamford,Daily,Donut,1.68
+824,Patricia,Female,Philadelphia,Daily,Burger,49.9
+834,Anna,Female,New York,Daily,Burrito,27.85
+837,Christina,Female,New York,Daily,Donut,39.73
+839,Evelyn,Female,Philadelphia,Daily,Sushi,17.5
+844,Lori,Female,Philadelphia,Daily,Ice Cream,79.18
+857,Wanda,Female,Stamford,Daily,Donut,44.96
+863,Amanda,Female,Philadelphia,Daily,Burger,91.12
+900,Gloria,Female,New York,Daily,Donut,62.69
+915,Ruby,Female,Stamford,Daily,Sushi,65.52
+918,Kimberly,Female,Philadelphia,Daily,Donut,92.25
+974,Kelly,Female,Stamford,Daily,Burrito,1.18
+984,Amy,Female,New York,Daily,Donut,20.78
+999,Jessica,Female,New York,Daily,Chalupa,43.19

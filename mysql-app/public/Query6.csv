@@ -1,0 +1,261 @@
+CustomerID,FirstName,Gender,City,Frequency,Item,Spend
+3,Charles,Male,New York,Never,Sushi,42.14
+6,Charles,Male,Stamford,Monthly,Sushi,93.03
+7,Mark,Male,Philadelphia,Monthly,Ice Cream,30.01
+11,Samuel,Male,Stamford,Daily,Ice Cream,15.17
+15,Henry,Male,Stamford,Often,Donut,83.61
+16,Paul,Male,Philadelphia,Often,Ice Cream,97.67
+19,Bruce,Male,Stamford,Often,Ice Cream,99.17
+27,Dennis,Male,Philadelphia,Never,Sushi,12.38
+30,Lawrence,Male,Philadelphia,Often,Sushi,7.97
+35,Stephen,Male,New York,Daily,Ice Cream,59.41
+37,Kevin,Male,New York,Monthly,Sushi,60.6
+44,George,Male,Philadelphia,Often,Donut,93.12
+46,Victor,Male,Philadelphia,Weekly,Ice Cream,16.83
+50,Scott,Male,Stamford,Weekly,Ice Cream,12.33
+51,Anthony,Male,Stamford,Weekly,Sushi,96.97
+60,Martin,Male,Stamford,Daily,Donut,54.38
+64,Jeffrey,Male,Stamford,Once,Sushi,68.02
+66,Paul,Male,Philadelphia,Weekly,Ice Cream,82.57
+71,Fred,Male,Stamford,Once,Sushi,50.16
+77,William,Male,Philadelphia,Daily,Sushi,68.14
+79,Louis,Male,New York,Monthly,Sushi,8.27
+99,William,Male,Philadelphia,Once,Ice Cream,54.34
+109,Douglas,Male,Philadelphia,Never,Ice Cream,84.09
+118,Wayne,Male,Philadelphia,Never,Sushi,70.54
+125,Bruce,Male,New York,Daily,Sushi,56.14
+126,Jose,Male,New York,Once,Ice Cream,55.47
+133,Gary,Male,New York,Yearly,Sushi,26.67
+134,Christopher,Male,New York,Monthly,Donut,79.7
+135,John,Male,Stamford,Seldom,Ice Cream,17.84
+137,Aaron,Male,Philadelphia,Weekly,Ice Cream,89.85
+149,Walter,Male,New York,Seldom,Ice Cream,97.65
+152,Kevin,Male,Stamford,Once,Sushi,69.11
+157,Jason,Male,Philadelphia,Weekly,Ice Cream,31.99
+165,Donald,Male,Philadelphia,Never,Sushi,41.77
+166,Philip,Male,Stamford,Never,Donut,6.7
+168,Chris,Male,Philadelphia,Once,Ice Cream,48.69
+172,Aaron,Male,New York,Never,Donut,48
+173,Philip,Male,Philadelphia,Monthly,Sushi,97.12
+174,Shawn,Male,Philadelphia,Yearly,Ice Cream,72.6
+176,Russell,Male,Stamford,Once,Donut,30.1
+180,Larry,Male,New York,Yearly,Sushi,21.99
+184,Jeremy,Male,Philadelphia,Weekly,Donut,30.19
+189,Phillip,Male,Stamford,Seldom,Donut,12.81
+191,Kenneth,Male,Stamford,Seldom,Sushi,98.48
+192,Carl,Male,New York,Once,Donut,65.49
+196,Ryan,Male,New York,Seldom,Ice Cream,47.29
+198,Patrick,Male,Philadelphia,Monthly,Ice Cream,31.62
+200,Brian,Male,New York,Monthly,Ice Cream,55.21
+203,Mark,Male,Philadelphia,Yearly,Ice Cream,4.89
+204,Albert,Male,New York,Monthly,Sushi,93.85
+206,Samuel,Male,Stamford,Once,Ice Cream,6.43
+208,Howard,Male,Philadelphia,Once,Donut,41.27
+210,Joshua,Male,New York,Often,Donut,86.7
+215,Roger,Male,Stamford,Yearly,Ice Cream,68.28
+217,Henry,Male,Philadelphia,Often,Donut,17.7
+219,Louis,Male,New York,Weekly,Ice Cream,14.06
+223,Paul,Male,Philadelphia,Monthly,Donut,77.5
+234,Bruce,Male,Stamford,Once,Ice Cream,43.8
+235,Jose,Male,Philadelphia,Daily,Ice Cream,66.66
+238,Ernest,Male,New York,Never,Donut,27.22
+246,Daniel,Male,Stamford,Weekly,Ice Cream,61.76
+247,Sean,Male,New York,Weekly,Sushi,3.28
+248,Clarence,Male,Philadelphia,Daily,Ice Cream,16.91
+249,Willie,Male,Stamford,Weekly,Sushi,67.67
+254,Raymond,Male,New York,Monthly,Sushi,37.05
+260,Victor,Male,Stamford,Never,Sushi,88.56
+273,Martin,Male,Philadelphia,Weekly,Sushi,72.87
+274,Howard,Male,Philadelphia,Never,Donut,31.02
+278,Todd,Male,Stamford,Monthly,Donut,57.29
+280,Richard,Male,New York,Yearly,Donut,1.49
+292,Howard,Male,Philadelphia,Once,Sushi,23.78
+297,Kenneth,Male,New York,Monthly,Ice Cream,37.3
+298,Jonathan,Male,Philadelphia,Often,Ice Cream,38.02
+299,Arthur,Male,Stamford,Weekly,Ice Cream,62.63
+300,Russell,Male,New York,Monthly,Sushi,57.7
+303,Jimmy,Male,Philadelphia,Often,Donut,29.91
+305,Brian,Male,Philadelphia,Seldom,Donut,63.14
+309,Walter,Male,Stamford,Never,Ice Cream,46.58
+318,Craig,Male,Stamford,Often,Ice Cream,60.89
+319,William,Male,New York,Daily,Sushi,49.18
+325,Sean,Male,New York,Weekly,Sushi,63.8
+326,Keith,Male,Philadelphia,Daily,Donut,91.19
+327,Dennis,Male,New York,Daily,Donut,4.39
+332,Jimmy,Male,Stamford,Often,Ice Cream,3.43
+337,Martin,Male,Stamford,Weekly,Ice Cream,34.85
+342,Timothy,Male,New York,Monthly,Donut,47.32
+343,Howard,Male,Stamford,Seldom,Ice Cream,22.99
+347,Fred,Male,Stamford,Weekly,Donut,16.49
+349,Philip,Male,Philadelphia,Never,Ice Cream,62.14
+354,Jose,Male,Stamford,Often,Donut,68.4
+362,Willie,Male,New York,Monthly,Sushi,5.12
+381,Brandon,Male,Stamford,Often,Sushi,44.22
+390,Eugene,Male,Philadelphia,Monthly,Ice Cream,72.67
+392,Ronald,Male,New York,Often,Ice Cream,88.15
+394,Russell,Male,Philadelphia,Never,Sushi,19.2
+397,George,Male,New York,Weekly,Donut,58.96
+399,Peter,Male,Stamford,Often,Ice Cream,58.25
+409,Fred,Male,New York,Daily,Ice Cream,69.17
+416,Howard,Male,Stamford,Seldom,Sushi,32.15
+420,Dennis,Male,Stamford,Once,Donut,44.59
+425,Jerry,Male,New York,Once,Sushi,86.86
+428,Christopher,Male,Philadelphia,Once,Sushi,51.33
+430,Paul,Male,New York,Once,Ice Cream,15.46
+431,Bruce,Male,New York,Monthly,Sushi,93.82
+432,Daniel,Male,Stamford,Daily,Donut,75.04
+433,Ronald,Male,Philadelphia,Once,Ice Cream,86.66
+434,Jack,Male,Stamford,Yearly,Donut,16.52
+435,Benjamin,Male,New York,Once,Donut,45.91
+440,John,Male,Philadelphia,Often,Donut,33.22
+445,Jeremy,Male,Philadelphia,Daily,Sushi,61.7
+452,Alan,Male,Philadelphia,Daily,Ice Cream,43.49
+455,Jose,Male,New York,Never,Ice Cream,23.25
+458,Justin,Male,Philadelphia,Often,Donut,76.91
+459,Todd,Male,Philadelphia,Once,Donut,4.77
+461,Walter,Male,Stamford,Monthly,Donut,21.09
+464,Clarence,Male,New York,Never,Ice Cream,34.29
+466,John,Male,Philadelphia,Weekly,Sushi,53.97
+469,Chris,Male,Philadelphia,Never,Sushi,63.22
+471,Jesse,Male,Philadelphia,Once,Donut,89.62
+473,Wayne,Male,Philadelphia,Daily,Donut,21.72
+478,Douglas,Male,New York,Seldom,Sushi,53.45
+479,Steve,Male,Stamford,Never,Donut,94.14
+481,Joe,Male,New York,Once,Donut,44.97
+482,Victor,Male,New York,Seldom,Ice Cream,38.81
+485,Juan,Male,Stamford,Never,Donut,33.2
+486,Craig,Male,New York,Once,Donut,66.17
+488,Victor,Male,Philadelphia,Yearly,Donut,30.31
+489,Daniel,Male,Philadelphia,Once,Ice Cream,35.73
+492,Thomas,Male,New York,Daily,Donut,11.48
+493,Jack,Male,Philadelphia,Often,Ice Cream,81.38
+504,Louis,Male,Philadelphia,Never,Donut,22.63
+505,Willie,Male,Philadelphia,Daily,Sushi,17.26
+509,Jack,Male,Philadelphia,Weekly,Donut,8.46
+528,Alan,Male,Stamford,Often,Ice Cream,68.9
+529,Roger,Male,Philadelphia,Weekly,Sushi,95.7
+532,Victor,Male,New York,Seldom,Donut,16.25
+534,Joshua,Male,New York,Often,Ice Cream,86.01
+536,Steven,Male,Philadelphia,Seldom,Ice Cream,88.51
+538,Steve,Male,Stamford,Weekly,Sushi,86.43
+539,Nicholas,Male,Stamford,Seldom,Sushi,93.52
+543,Jason,Male,Stamford,Weekly,Donut,80.88
+546,Willie,Male,Stamford,Monthly,Donut,16.11
+547,Brian,Male,New York,Weekly,Ice Cream,79.95
+548,Steve,Male,Stamford,Seldom,Donut,44.67
+551,Matthew,Male,New York,Yearly,Donut,11.11
+554,Edward,Male,New York,Never,Sushi,51.5
+559,Anthony,Male,Philadelphia,Daily,Sushi,58.94
+570,Steve,Male,Philadelphia,Once,Donut,22.21
+575,Nicholas,Male,New York,Never,Donut,78.71
+578,Donald,Male,New York,Often,Ice Cream,34.82
+584,Juan,Male,New York,Often,Donut,37.18
+587,Joe,Male,Philadelphia,Weekly,Donut,77.15
+596,Randy,Male,New York,Often,Donut,15.92
+599,Jeffrey,Male,Stamford,Weekly,Donut,95.44
+601,Bruce,Male,Philadelphia,Yearly,Donut,14.3
+605,Roger,Male,New York,Never,Donut,46.39
+614,Mark,Male,Stamford,Seldom,Donut,79.58
+617,Craig,Male,Stamford,Once,Sushi,45.42
+619,Wayne,Male,New York,Monthly,Donut,20.7
+621,Raymond,Male,Philadelphia,Often,Ice Cream,72.18
+625,Sean,Male,New York,Monthly,Donut,36.01
+628,Martin,Male,Philadelphia,Once,Donut,42.9
+629,Juan,Male,Philadelphia,Monthly,Sushi,58.47
+635,Kevin,Male,New York,Seldom,Sushi,35.01
+639,Clarence,Male,Stamford,Once,Sushi,81.94
+641,Martin,Male,Stamford,Often,Donut,99.26
+642,Randy,Male,Stamford,Never,Ice Cream,37.45
+643,Daniel,Male,Stamford,Once,Ice Cream,33.37
+654,Justin,Male,Stamford,Never,Donut,85.6
+659,Sean,Male,Philadelphia,Yearly,Ice Cream,96.34
+679,Jeremy,Male,Stamford,Weekly,Sushi,87.09
+680,Russell,Male,Philadelphia,Once,Ice Cream,46.12
+683,Sean,Male,New York,Monthly,Sushi,74.45
+685,Albert,Male,New York,Never,Donut,19.31
+688,Stephen,Male,Philadelphia,Daily,Sushi,2.01
+691,Brian,Male,Philadelphia,Often,Ice Cream,38.29
+692,Martin,Male,New York,Often,Ice Cream,43.12
+693,Benjamin,Male,New York,Seldom,Sushi,72.03
+699,Richard,Male,New York,Daily,Sushi,37.18
+702,Brian,Male,Philadelphia,Monthly,Donut,12.58
+704,James,Male,Philadelphia,Yearly,Ice Cream,18.85
+706,Louis,Male,Philadelphia,Once,Ice Cream,22.27
+707,Mark,Male,Philadelphia,Monthly,Donut,48.4
+708,Willie,Male,New York,Often,Ice Cream,95.45
+709,Jose,Male,Philadelphia,Often,Ice Cream,29.19
+710,Kenneth,Male,New York,Yearly,Donut,82.76
+721,Fred,Male,Stamford,Once,Donut,6.63
+722,Jimmy,Male,Philadelphia,Often,Sushi,27.61
+724,Jeremy,Male,Stamford,Yearly,Sushi,48.71
+725,Peter,Male,New York,Daily,Ice Cream,49.64
+726,Thomas,Male,Philadelphia,Seldom,Ice Cream,49.93
+727,Nicholas,Male,Philadelphia,Once,Donut,17.99
+735,Jerry,Male,Stamford,Yearly,Ice Cream,19.32
+740,Jose,Male,Philadelphia,Often,Sushi,66.93
+741,Mark,Male,Philadelphia,Seldom,Sushi,91.26
+743,Terry,Male,Philadelphia,Daily,Ice Cream,14.9
+745,Carl,Male,New York,Weekly,Ice Cream,86.08
+756,David,Male,Philadelphia,Never,Sushi,38.66
+759,Anthony,Male,New York,Weekly,Donut,15.48
+765,Frank,Male,Stamford,Once,Donut,39.47
+766,Larry,Male,New York,Yearly,Ice Cream,14.91
+769,Charles,Male,Stamford,Seldom,Donut,26.25
+771,Johnny,Male,Stamford,Often,Donut,70.28
+774,Douglas,Male,New York,Once,Donut,55.7
+777,Victor,Male,Philadelphia,Weekly,Sushi,29.96
+782,Mark,Male,New York,Once,Sushi,49.46
+783,Eric,Male,Philadelphia,Often,Donut,10.29
+785,Willie,Male,Philadelphia,Monthly,Ice Cream,67.89
+790,Benjamin,Male,New York,Daily,Donut,84.85
+796,Joe,Male,Philadelphia,Monthly,Ice Cream,99.24
+798,Ernest,Male,New York,Yearly,Ice Cream,96.74
+804,Jeffrey,Male,Philadelphia,Monthly,Donut,70.09
+808,Walter,Male,Philadelphia,Yearly,Sushi,33.8
+809,Howard,Male,New York,Yearly,Ice Cream,48.05
+817,Anthony,Male,New York,Monthly,Ice Cream,59.69
+819,Craig,Male,Philadelphia,Daily,Donut,58.01
+826,Jerry,Male,Stamford,Monthly,Donut,25.04
+836,Brian,Male,Stamford,Weekly,Donut,54.18
+838,Eugene,Male,Philadelphia,Once,Ice Cream,12.26
+840,Victor,Male,Philadelphia,Often,Donut,1.26
+847,James,Male,New York,Weekly,Ice Cream,15.69
+848,Eugene,Male,Stamford,Once,Ice Cream,84.98
+852,Randy,Male,Stamford,Weekly,Ice Cream,67.85
+853,Douglas,Male,Stamford,Never,Sushi,62.3
+864,Ronald,Male,Philadelphia,Weekly,Sushi,7.83
+866,Steven,Male,New York,Daily,Donut,64.09
+874,George,Male,New York,Weekly,Ice Cream,28.08
+876,Larry,Male,New York,Once,Donut,60.08
+882,Frank,Male,Philadelphia,Daily,Donut,19.79
+885,Henry,Male,Philadelphia,Seldom,Donut,22.08
+887,Donald,Male,Philadelphia,Once,Sushi,85.98
+894,John,Male,Philadelphia,Once,Donut,5.12
+895,Harold,Male,New York,Weekly,Sushi,83.07
+901,James,Male,Philadelphia,Monthly,Donut,50.72
+905,Paul,Male,Stamford,Never,Sushi,54.04
+908,Joe,Male,Philadelphia,Monthly,Ice Cream,85.12
+909,Benjamin,Male,New York,Seldom,Ice Cream,86.67
+914,Willie,Male,New York,Often,Sushi,9.31
+917,Steve,Male,New York,Daily,Sushi,83.07
+922,Patrick,Male,Philadelphia,Once,Ice Cream,24.54
+923,Mark,Male,Philadelphia,Never,Ice Cream,80.02
+927,Jason,Male,Philadelphia,Yearly,Ice Cream,47.26
+928,Alan,Male,New York,Yearly,Donut,47.74
+930,Jack,Male,Stamford,Monthly,Ice Cream,74.36
+934,Fred,Male,Stamford,Once,Donut,19.1
+945,Sean,Male,Philadelphia,Often,Sushi,64.6
+946,Harry,Male,New York,Never,Sushi,70.37
+954,Scott,Male,Philadelphia,Daily,Ice Cream,6.73
+956,Jonathan,Male,New York,Once,Ice Cream,45.8
+964,Earl,Male,New York,Once,Ice Cream,97.41
+968,Carl,Male,Philadelphia,Once,Ice Cream,47.13
+973,Wayne,Male,Stamford,Once,Ice Cream,14.13
+977,Jesse,Male,Philadelphia,Never,Ice Cream,95.69
+978,John,Male,New York,Yearly,Sushi,70.78
+979,Charles,Male,Stamford,Weekly,Donut,64.28
+982,Keith,Male,New York,Daily,Donut,65.19
+985,Jimmy,Male,Stamford,Never,Ice Cream,35.74
+992,Anthony,Male,Stamford,Yearly,Ice Cream,8.72
+994,Mark,Male,Philadelphia,Seldom,Donut,13.79
+997,Albert,Male,Philadelphia,Daily,Sushi,72.88

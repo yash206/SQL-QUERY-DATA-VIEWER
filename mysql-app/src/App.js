@@ -14,6 +14,8 @@ const App = () => {
       'SELECT * FROM Foods WHERE Frequency = "Weekly";': './Query2.csv',
       'SELECT * FROM Foods ORDER BY Spend DESC;': './Query3.csv',
       'SELECT * FROM Foods WHERE Spend>50;': './Query4.csv',
+      'SELECT * FROM Foods WHERE Gender = "Female" AND Frequency = "Daily";': './Query5.csv',
+      'SELECT * FROM Foods WHERE Gender = "Male" AND (Item = "Sushi" OR Item = "Ice Cream" OR Item = "Donut");': './Query6.csv',
     };
 
     // Fetch and parse the CSV data for each predefined query
@@ -51,6 +53,7 @@ const App = () => {
     'SELECT * FROM Foods WHERE Frequency = "Weekly";',
     'SELECT * FROM Foods ORDER BY Spend DESC;',
     'SELECT * FROM Foods WHERE Spend>50;',
+    'SELECT * FROM Foods WHERE Gender = "Female" AND Frequency = "Daily";',
   ];
 
   const handleQuerySelect = (query) => {
