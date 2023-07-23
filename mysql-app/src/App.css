@@ -1,6 +1,6 @@
 .app-container {
   text-align: center;
-  background-color: #f5f5f5;
+  background-color: #c5cce0;
 }
 
 /* Header styles */
@@ -17,13 +17,13 @@
 
 /* Content styles */
 .app-content {
-  max-width: 800px;
+  max-width: 70%;
   margin: 0 auto;
   padding: 2rem;
 }
 
 .data-display {
-  margin-bottom: 300px;
+  margin-bottom: 30%;
 }
 
 .query-selector select,
@@ -35,6 +35,7 @@
   margin-bottom: 1rem;
   width: 100%;
   max-width: 400px;
+  cursor: pointer;
 }
 
 .data-display table {
@@ -50,8 +51,16 @@
 }
 
 .data-display th {
-  background-color: #f5f5f5;
+  background-color: #9c9999;
   font-weight: bold;
+}
+
+.alt1{
+  background-color: #d3cece;
+}
+
+.alt2{
+  background-color: #ecd5d5;
 }
 
 /* Footer styles */

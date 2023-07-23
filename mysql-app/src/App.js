@@ -155,13 +155,13 @@ const App = () => {
             <tbody>
               {displayData().map((item, index) => (
                 <tr key={index}>
-                  <td>{item.CustomerID}</td>
-                  <td>{item.FirstName}</td>
-                  <td>{item.Gender}</td>
-                  <td>{item.City}</td>
-                  <td>{item.Frequency}</td>
-                  <td>{item.Item}</td>
-                  <td>{item.Spend}</td>
+                  <td className="alt1">{item.CustomerID}</td>
+                  <td className="alt2">{item.FirstName}</td>
+                  <td className="alt1">{item.Gender}</td>
+                  <td className="alt2">{item.City}</td>
+                  <td className="alt1">{item.Frequency}</td>
+                  <td className="alt2">{item.Item}</td>
+                  <td className="alt1">{item.Spend}</td>
                 </tr>
               ))}
             </tbody>
