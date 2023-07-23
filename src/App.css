@@ -165,7 +165,8 @@ button:active {
 /* Mobile Devices */
 @media screen and (max-width: 600px) {
   .app-content {
-    padding: 1rem;
+    max-width: 100%;
+    padding: 0.7rem;
   }
 
   .query-selector select,
@@ -175,7 +176,7 @@ button:active {
   }
 
   .data-display table {
-    font-size: 10px;
+    font-size: 7px;
     table-layout: fixed; /* Ensures table cells don't grow wider than their content */
     max-width: 100%;
     overflow-x: auto; /* Enable horizontal scrolling */
@@ -195,6 +196,7 @@ button:active {
 /* Tablets */
 @media screen and (min-width: 601px) and (max-width: 1024px) {
   .app-content {
+    max-width: 100%;
     padding: 1.5rem;
   }
 
