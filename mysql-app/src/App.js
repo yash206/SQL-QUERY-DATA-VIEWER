@@ -3,10 +3,12 @@ import Papa from 'papaparse';
 import './App.css';
 
 const App = () => {
+  // State variables using React Hooks
   const [selectedQuery, setSelectedQuery] = useState('');
   const [csvFileMap, setCsvFileMap] = useState({});
   const [selectedQueryText, setSelectedQueryText] = useState('');
 
+  // useEffect to fetch and parse CSV data for predefined queries
   useEffect(() => {
     // Define the CSV files for each predefined query
     const predefinedCsvFiles = {
@@ -47,7 +49,7 @@ const App = () => {
     fetchData();
   }, []);
 
-
+  // Array of predefined SQL queries
   const predefinedQueries = [
     'SELECT * FROM Foods;',
     'SELECT * FROM Foods WHERE Frequency = "Weekly";',
@@ -57,6 +59,7 @@ const App = () => {
     'SELECT * FROM Foods WHERE Gender = "Male" AND (Item = "Sushi" OR Item = "Ice Cream" OR Item = "Donut");',
   ];
 
+  // Handler for selecting a query
   const handleQuerySelect = (query) => {
     setSelectedQuery(query);
 
@@ -66,6 +69,7 @@ const App = () => {
     }
   };
 
+  // Function to display data based on selectedQuery
   const displayData = () => {
     if (selectedQuery !== '') {
       if (csvFileMap[selectedQuery]) {
@@ -78,7 +82,7 @@ const App = () => {
     }
   };
   
-
+  // Handler for scrolling to the top of the page
   const handleScrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -86,6 +90,7 @@ const App = () => {
     });
   };
 
+  // Handler for clicking on anchor links to scroll to sections
   const handleAnchorLinkClick = (e, target) => {
     e.preventDefault();
     document.querySelector(target).scrollIntoView({
@@ -93,6 +98,7 @@ const App = () => {
     });
   };
 
+  // JSX code to render the component
   return (
     <div className="app-container">
       <header className="app-header">
@@ -122,11 +128,13 @@ const App = () => {
             </li>
           </ul>
         </nav><br/>
+        {/* Radio button to select the default query */}
         <input type="radio" name="option" value="Foods.csv" checked />
         <label for="Foods.csv"><b>Foods.csv</b></label><br/>
         <br/>
         <div className="query-selector" id="query-selector">
           <h3>Select a Predefined Query:</h3><br/>
+          {/* Dropdown to select the predefined queries */}
           <select onChange={(e) => handleQuerySelect(e.target.value)}>
             <option value="">--Select a Query--</option>
             {predefinedQueries.map((query, index) => (
@@ -156,6 +164,7 @@ const App = () => {
               </tr>
             </thead>
             <tbody>
+              {/* Loop through data to display rows */}
               {displayData().map((item, index) => (
                 <tr key={index}>
                   <td className="alt1">{item.CustomerID}</td>
