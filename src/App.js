@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import Papa from 'papaparse';
 import './App.css';
+import Navbar from './Navbar';
 
 const App = () => {
   // State variables using React Hooks
@@ -90,14 +91,6 @@ const App = () => {
     });
   };
 
-  // Handler for clicking on anchor links to scroll to sections
-  const handleAnchorLinkClick = (e, target) => {
-    e.preventDefault();
-    document.querySelector(target).scrollIntoView({
-      behavior: 'smooth',
-    });
-  };
-
   // Handle downloading of CSV file
   const handleDownloadCSV = () => {
     if (csvFileMap[selectedQuery]) {
@@ -123,26 +116,7 @@ const App = () => {
         </button>
       </header>
       <div className="app-content">
-        <nav className="app-nav">
-          <ul>
-            <li>
-              <a
-                href="#query-selector"
-                onClick={(e) => handleAnchorLinkClick(e, '#query-selector')}
-              >
-                Select Query
-              </a>
-            </li>
-            <li>
-              <a
-                href="#data-display"
-                onClick={(e) => handleAnchorLinkClick(e, '#data-display')}
-              >
-                Displayed Data
-              </a>
-            </li>
-          </ul>
-        </nav><br/>
+        <Navbar /><br/><br/>
         {/* Radio button to select the default query */}
         <input type="radio" name="option" value="Foods.csv" checked />
         <label htmlFor="Foods.csv"><b>Foods.csv</b></label><br/>
@@ -165,7 +139,7 @@ const App = () => {
           </div>
         )}
         <div className="data-display" id="data-display">
-          <h1>Displayed Data</h1>
+          <h1>Displayed Data</h1><br/>
           {selectedQuery && (
             <button onClick={handleDownloadCSV}>Download CSV</button>
           )}
