@@ -175,8 +175,21 @@ button:active {
   }
 
   .data-display table {
-    font-size: 14px;
+    font-size: 10px;
+    table-layout: fixed; /* Ensures table cells don't grow wider than their content */
+    max-width: 100%;
+    overflow-x: auto; /* Enable horizontal scrolling */
   }
+
+  /* Reduce padding for table cells on smaller screens */
+  .data-display th,
+  .data-display td {
+    padding: 0.1rem;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+  
 }
 
 /* Tablets */
