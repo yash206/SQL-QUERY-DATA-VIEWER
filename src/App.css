@@ -63,6 +63,28 @@
   background-color: #ecd5d5;
 }
 
+/* Styling for the download button */
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+/* On hover, change the background color */
+button:hover {
+  background-color: #45a049;
+}
+
+/* On click, add press effect by decreasing size of the button */
+button:active {
+  transform: scale(0.7);
+}
+
 /* Footer styles */
 .app-footer {
   background-color: #333;

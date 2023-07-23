@@ -98,6 +98,21 @@ const App = () => {
     });
   };
 
+  // Handle downloading of CSV file
+  const handleDownloadCSV = () => {
+    if (csvFileMap[selectedQuery]) {
+      const csv = Papa.unparse(csvFileMap[selectedQuery]);
+      const blob = new Blob([csv], { type: 'text/csv' });
+      const url = URL.createObjectURL(blob);
+      const link = document.createElement('a');
+      link.href = url;
+      link.setAttribute('download', `${selectedQuery}.csv`);
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+    }
+  };
+
   // JSX code to render the component
   return (
     <div className="app-container">
@@ -130,7 +145,7 @@ const App = () => {
         </nav><br/>
         {/* Radio button to select the default query */}
         <input type="radio" name="option" value="Foods.csv" checked />
-        <label for="Foods.csv"><b>Foods.csv</b></label><br/>
+        <label htmlFor="Foods.csv"><b>Foods.csv</b></label><br/>
         <br/>
         <div className="query-selector" id="query-selector">
           <h3>Select a Predefined Query:</h3><br/>
@@ -145,22 +160,25 @@ const App = () => {
           </select>
         </div><hr/>
         {selectedQueryText && selectedQuery && (
-        <div className="selected-query-text">
-          <br/><p><b>Selected Query:</b> &emsp; {selectedQueryText}</p><br/><hr/>
-        </div>
-      )}
+          <div className="selected-query-text">
+            <br/><p><b>Selected Query:</b> &emsp; {selectedQueryText}</p><br/><hr/>
+          </div>
+        )}
         <div className="data-display" id="data-display">
-          <h2>Displayed Data</h2>
+          <h1>Displayed Data</h1>
+          {selectedQuery && (
+            <button onClick={handleDownloadCSV}>Download CSV</button>
+          )}
           <table>
             <thead>
               <tr>
-              <th>CustomerID</th>
-              <th>FirstName</th>
-              <th>Gender</th>
-              <th>City</th>
-              <th>Frequency</th>
-              <th>Item</th>
-              <th>Spend</th>
+                <th>CustomerID</th>
+                <th>FirstName</th>
+                <th>Gender</th>
+                <th>City</th>
+                <th>Frequency</th>
+                <th>Item</th>
+                <th>Spend</th>
               </tr>
             </thead>
             <tbody>
