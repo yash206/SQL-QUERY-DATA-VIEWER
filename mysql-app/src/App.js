@@ -121,7 +121,10 @@ const App = () => {
               </a>
             </li>
           </ul>
-        </nav><br/><br/>
+        </nav><br/>
+        <input type="radio" name="option" value="Foods.csv" checked />
+        <label for="Foods.csv"><b>Foods.csv</b></label><br/>
+        <br/>
         <div className="query-selector" id="query-selector">
           <h3>Select a Predefined Query:</h3><br/>
           <select onChange={(e) => handleQuerySelect(e.target.value)}>
